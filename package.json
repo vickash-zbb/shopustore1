@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://vickash.github.io/flare-home",
+  "homepage": "https://vickash-zbb.github.io/shopustore1/",
   "pkg": {
     "assets": [
       "dist/spa/*"
