@@ -4,16 +4,16 @@
   "private": true,
   "type": "module",
   "homepage": "https://vickash-zbb.github.io/shopustore1/",
- "scripts": {
-  "dev": "vite",                        // Local dev with Express
-  "build": "vite build --config vite.config.gh.ts",  // Pure frontend build
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",        // Deploy only frontend
-  "start": "node dist/server/node-build.mjs",
-  "test": "vitest --run",
-  "format.fix": "prettier --write .",
-  "typecheck": "tsc"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.gh.ts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "node dist/server/node-build.mjs",
+    "test": "vitest --run",
+    "format.fix": "prettier --write .",
+    "typecheck": "tsc"
+  },
   "dependencies": {
     "dotenv": "^17.2.0",
     "express": "^4.18.2",
